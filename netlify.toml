@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/dashboard/*"
+  to = "https://lookerstudio.google.com/embed/reporting/ddfdc596-6b2c-4fbd-8637-5698e14eec0e/page/9cE4E"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/dashboard/*"
+    [headers.basic]
+    realm = "Dashboard Access" 
