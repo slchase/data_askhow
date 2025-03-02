@@ -1,3 +1,11 @@
+# Remove this redirect since dashboard is now at root
+# [[redirects]]
+#   from = "/"
+#   to = "/data/"
+#   status = 301
+#   force = true
+
+# Existing redirect for dashboard
 [[redirects]]
   from = "/dashboard/*"
   to = "https://lookerstudio.google.com/embed/reporting/ddfdc596-6b2c-4fbd-8637-5698e14eec0e/page/9cE4E"
