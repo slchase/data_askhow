@@ -15,4 +15,12 @@
 [[headers]]
   for = "/dashboard/*"
     [headers.basic]
-    realm = "Dashboard Access" 
+    realm = "Dashboard Access"
+
+[build]
+  functions = "functions"
+  
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200 
